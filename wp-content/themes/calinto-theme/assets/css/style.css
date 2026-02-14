@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f7fb;
+    color: #1f2937;
+}
+
+/* Container */
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #0b1f3a, #123b6b);
+    padding: 15px 0;
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 55px;
+}
+
+nav a {
+    color: white;
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #4cc9f0;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #0b1f3a, #1b4f9c, #3aa6ff);
+    color: white;
+    padding: 140px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 46px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 750px;
+    margin: auto;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+/* Button */
+.btn {
+    background: white;
+    color: #1b4f9c;
+    padding: 14px 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #e0f2ff;
+}
+
+/* Section */
+.section {
+    padding: 90px 0;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 34px;
+    margin-bottom: 40px;
+    color: #0b1f3a;
+}
+
+/* Services */
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 35px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 20px 45px rgba(27, 79, 156, 0.2);
+}
+
+.card h3 {
+    color: #1b4f9c;
+}
+
+/* About Section */
+.about-section {
+    background: #eaf3ff;
+}
+
+/* CTA Section */
+.cta-section {
+    background: linear-gradient(90deg, #0b1f3a, #123b6b);
+    color: white;
+}
+
+.cta-section h2 {
+    color: white;
+}
+
+/* Footer */
+footer {
+    background: #0b1f3a;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
